@@ -1,0 +1,3 @@
+Le programme ne fonctionne pas,
+le résultat renvoit les bons characteres, dans le bon ordre,
+mais il ne gère pas les doublons.
