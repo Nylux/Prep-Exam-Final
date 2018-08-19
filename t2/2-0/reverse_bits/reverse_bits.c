@@ -5,10 +5,8 @@ unsigned char reverse_bits(unsigned char octet)
     int value;
     int res;
 
-    res = 0;       // VALEUR APRES INVERSEMENT
-    value = octet; // VALEUR DECIMALE DU CHAR
-
-    printf("VALUE %d\n", value);
+    res = 0;
+    value = octet;
 
     if (value / 128 == 0)
         res = res + 128;
@@ -53,7 +51,6 @@ unsigned char reverse_bits(unsigned char octet)
 
 
     octet = res;
-    printf("RES %d\n", res);
     return (octet);
 
 }
